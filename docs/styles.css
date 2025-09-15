@@ -1,0 +1,12 @@
+/* Minimal site styles for the Quarto blog */
+:root {
+  --brand-accent: #0d6efd;
+}
+
+.navbar-brand, .navbar a {
+  text-decoration: none;
+}
+
+.quarto-listing .listing-title a {
+  color: var(--brand-accent);
+}

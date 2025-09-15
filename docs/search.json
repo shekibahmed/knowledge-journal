@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "posts/2025-01-01-welcome.html",
+    "href": "posts/2025-01-01-welcome.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is a sample post to verify the blog listing works.\n\nEdit this file or add more posts in posts/\nUse quarto preview to see changes live\n\nHappy writing!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Director @ Bagasa Plantations (P) Ltd. · Founder, Evolving Innovations LLP · AI Engineer\nDibrugarh, Assam, India\nI work at the intersection of tea, technology, and entrepreneurship—modernizing the tea supply chain in Assam and building AI-powered tools for quality, yield, and pricing analytics. I’m the Director of Bagasa Plantations (P) Ltd. and Founder of Evolving Innovations LLP, where I research solvent-free, enzymatic, and AI-assisted extraction of tea bioactives and collaborate with scientists to bring tea-based nutraceutical, cosmeceutical, and beverage products to market.\n\n\n\n\nDigitizing the tea supply chain: Real-time price & volume analytics, market trend detection, and operational dashboards.\n\nR&D in tea extracts: Process innovation and productization of Assam tea phytometabolites.\n\nAI/ML in agriculture: Computer vision and ML pipelines for quality assessment and automation.\n\n\n\n\n\n\n\n\nResearching solvent-free, enzymatic, and AI-assisted extraction techniques for high-quality tea extracts.\n\nProduct development with food scientists & industry partners (tea-based functional products).\n\nBuilding PyTorch/OpenCV/ML analytics for real-time price & volume trend analysis in the tea market.\n\n\n\n\n\nLead initiatives to streamline HR/ERP and digitize core processes.\n\nDrive partnerships with startups & systems integrators to improve quality, yield, and productivity.\n\nIncubate value-addition projects, community development, and sustainable growth.\n\n\nEarlier roles at Bagasa Plantations:\nCorporate & Union Relations Intern (Mar–Jul 2004) — supported labor-policy negotiations and client relations.\nQuality Control Intern (May–Jul 2002) — supervised fermentation process changes to raise quality and margins.\n\n\n\n\n\nNGO Partnerships (May–Jul 2006): University/industry outreach, MoUs with researchers & financiers, GIS integration for alt-energy projects, and policy research.\n\nEmissions Trading Research Intern (May–Jul 2005): Mapped PDD processes with Winrock International & TERI; built research institute contacts (RRL Jorhat, Dibrugarh Univ.).\n\n\n\n\n\nBuilt KPIs and reporting for education/training, monitoring, and remediation programs.\n\nLed end-to-end data collection, cleaning, analysis, and executive reporting.\n\n\n\n\n\n\n\nBentley University (Waltham, MA) — B.S. in Managerial Economics; Minor in International Studies (Jan 2008)\nMagna Cum Laude; President’s List; Honors Program; Beta Gamma Sigma & Omicron Delta Epsilon.\nEton College (London, UK) — International Exchange Scholarship Program (Summer 2003)\n\nBrazil Short-Term Program — São Paulo & Rio de Janeiro (Jan 2006); Incubadora Afro-Brasileira seminar\n\nGhana Short-Term Program — Accra (Aug 2006); service learning with HUGS International TLC (UK ops)\n\n\n\n\n\n\nSeasonal dynamics of phytometabolites content in Assam tea (Camellia sinensis var. assamica) by LC-MS/MS: Implications for quality.\nJournal of Food Composition and Analysis, 134 (2024): 106546.\nAuthors: S.S. Pulimamidi, D.D. Naik, M. Yadav, K.G. Suryawanshi, S.S. Marathe, S.B. Jorvekar, S. Ponneganti, S. Ahmed, A. Hazarika, R.M. Borkar.\nDOI: 10.1016/j.jfca.2024.106546\n\n\n\n\n\nAI/ML & Data: PyTorch, TensorFlow, OpenCV, scikit-learn, R, SQL, NumPy, Matplotlib\nData Analytics & BI: Power BI, Tableau\nSoftware & Cloud: JavaScript, Flask, Django, AWS (architecture), Replit, Cursor\nDelivery & Workflow: JIRA, Trello\n\n\n\n\n\nPyTorch for Deep Learning Bootcamp — Udemy\nMachine Learning/AI Engineer (Career Path) — Codecademy\nLearn Data Structures and Algorithms with Python — Codecademy\nLearn Python 3 — Codecademy\nBuild Deep Learning Models with TensorFlow (Skill Path) — Codecademy\nAWS Cloud Technical Essentials — Coursera\nArchitecting Solutions on AWS — Coursera\nConvolutional Neural Networks — DeepLearning.AI / Coursera\nDeep Learning Specialization — DeepLearning.AI / Coursera\nMigrating to the AWS Cloud — AWS / Coursera\nSequence Models — DeepLearning.AI / Coursera\nImproving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization — DeepLearning.AI / Coursera\nStructuring Machine Learning Projects — DeepLearning.AI / Coursera\nData Analysis with R Programming — Google / Coursera\nGoogle Data Analytics Certificate — Google / Coursera\nNeural Networks and Deep Learning — DeepLearning.AI / Coursera\n\n\n\n\n\nResident Assistant; Spiritual Life Advisor; Director, Bentley Entrepreneurship Society; Bentley Model United Nations; Moroccan delegation, Model Arab League (Northeastern Univ., 2004); Service Learning (Fitzgerald High School, IT classes); Student Mentor, Project Eye-to-Eye."
+  },
+  {
+    "objectID": "about.html#what-im-focused-on",
+    "href": "about.html#what-im-focused-on",
+    "title": "About",
+    "section": "",
+    "text": "Digitizing the tea supply chain: Real-time price & volume analytics, market trend detection, and operational dashboards.\n\nR&D in tea extracts: Process innovation and productization of Assam tea phytometabolites.\n\nAI/ML in agriculture: Computer vision and ML pipelines for quality assessment and automation."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "",
+    "text": "Researching solvent-free, enzymatic, and AI-assisted extraction techniques for high-quality tea extracts.\n\nProduct development with food scientists & industry partners (tea-based functional products).\n\nBuilding PyTorch/OpenCV/ML analytics for real-time price & volume trend analysis in the tea market.\n\n\n\n\n\nLead initiatives to streamline HR/ERP and digitize core processes.\n\nDrive partnerships with startups & systems integrators to improve quality, yield, and productivity.\n\nIncubate value-addition projects, community development, and sustainable growth.\n\n\nEarlier roles at Bagasa Plantations:\nCorporate & Union Relations Intern (Mar–Jul 2004) — supported labor-policy negotiations and client relations.\nQuality Control Intern (May–Jul 2002) — supervised fermentation process changes to raise quality and margins.\n\n\n\n\n\nNGO Partnerships (May–Jul 2006): University/industry outreach, MoUs with researchers & financiers, GIS integration for alt-energy projects, and policy research.\n\nEmissions Trading Research Intern (May–Jul 2005): Mapped PDD processes with Winrock International & TERI; built research institute contacts (RRL Jorhat, Dibrugarh Univ.).\n\n\n\n\n\nBuilt KPIs and reporting for education/training, monitoring, and remediation programs.\n\nLed end-to-end data collection, cleaning, analysis, and executive reporting."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Bentley University (Waltham, MA) — B.S. in Managerial Economics; Minor in International Studies (Jan 2008)\nMagna Cum Laude; President’s List; Honors Program; Beta Gamma Sigma & Omicron Delta Epsilon.\nEton College (London, UK) — International Exchange Scholarship Program (Summer 2003)\n\nBrazil Short-Term Program — São Paulo & Rio de Janeiro (Jan 2006); Incubadora Afro-Brasileira seminar\n\nGhana Short-Term Program — Accra (Aug 2006); service learning with HUGS International TLC (UK ops)"
+  },
+  {
+    "objectID": "about.html#publication",
+    "href": "about.html#publication",
+    "title": "About",
+    "section": "",
+    "text": "Seasonal dynamics of phytometabolites content in Assam tea (Camellia sinensis var. assamica) by LC-MS/MS: Implications for quality.\nJournal of Food Composition and Analysis, 134 (2024): 106546.\nAuthors: S.S. Pulimamidi, D.D. Naik, M. Yadav, K.G. Suryawanshi, S.S. Marathe, S.B. Jorvekar, S. Ponneganti, S. Ahmed, A. Hazarika, R.M. Borkar.\nDOI: 10.1016/j.jfca.2024.106546"
+  },
+  {
+    "objectID": "about.html#skills-selected",
+    "href": "about.html#skills-selected",
+    "title": "About",
+    "section": "",
+    "text": "AI/ML & Data: PyTorch, TensorFlow, OpenCV, scikit-learn, R, SQL, NumPy, Matplotlib\nData Analytics & BI: Power BI, Tableau\nSoftware & Cloud: JavaScript, Flask, Django, AWS (architecture), Replit, Cursor\nDelivery & Workflow: JIRA, Trello"
+  },
+  {
+    "objectID": "about.html#licenses-certifications",
+    "href": "about.html#licenses-certifications",
+    "title": "About",
+    "section": "",
+    "text": "PyTorch for Deep Learning Bootcamp — Udemy\nMachine Learning/AI Engineer (Career Path) — Codecademy\nLearn Data Structures and Algorithms with Python — Codecademy\nLearn Python 3 — Codecademy\nBuild Deep Learning Models with TensorFlow (Skill Path) — Codecademy\nAWS Cloud Technical Essentials — Coursera\nArchitecting Solutions on AWS — Coursera\nConvolutional Neural Networks — DeepLearning.AI / Coursera\nDeep Learning Specialization — DeepLearning.AI / Coursera\nMigrating to the AWS Cloud — AWS / Coursera\nSequence Models — DeepLearning.AI / Coursera\nImproving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization — DeepLearning.AI / Coursera\nStructuring Machine Learning Projects — DeepLearning.AI / Coursera\nData Analysis with R Programming — Google / Coursera\nGoogle Data Analytics Certificate — Google / Coursera\nNeural Networks and Deep Learning — DeepLearning.AI / Coursera"
+  },
+  {
+    "objectID": "about.html#activities-leadership",
+    "href": "about.html#activities-leadership",
+    "title": "About",
+    "section": "",
+    "text": "Resident Assistant; Spiritual Life Advisor; Director, Bentley Entrepreneurship Society; Bentley Model United Nations; Moroccan delegation, Model Arab League (Northeastern Univ., 2004); Service Learning (Fitzgerald High School, IT classes); Student Mentor, Project Eye-to-Eye."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to the Knowledge Journal. This is a clean Quarto blog scaffold.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\ngeneral\n\n\n\nFirst post in the new Quarto blog.\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\nNo matching items"
+  }
+]
