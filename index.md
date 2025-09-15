@@ -1,1 +1,1 @@
-I have a *blog*!
+Shekib's blog on applied AI and it's implications
