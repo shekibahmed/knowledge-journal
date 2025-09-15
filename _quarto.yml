@@ -5,6 +5,7 @@ website:
   title: "Knowledge Journal"
   description: "A Quarto blog"
   favicon: images/logo.png
+  site-url: https://shekibahmed.github.io/knowledge-journal
   navbar:
     right:
       - about.qmd
