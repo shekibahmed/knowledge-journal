@@ -1,23 +1,24 @@
-name: Quarto Publish
+name: Make Site
 
 on:
   push:
-    branches: [ master, main ]
+    branches:
+      - main
+      - master
   workflow_dispatch:
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install pandoc
+        run: sudo apt-get install -y pandoc
 
       - name: Render site
         uses: quarto-dev/quarto-actions/render@v2
@@ -26,6 +27,3 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
