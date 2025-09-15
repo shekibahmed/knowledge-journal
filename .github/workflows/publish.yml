@@ -1,0 +1,44 @@
+name: Quarto Publish
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+# Minimize default token permissions; escalate per job only as needed
+permissions:
+  contents: read
+
+concurrency:
+  group: quarto-publish-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    # Needs to push to gh-pages
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: stable
+
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
+
+      - name: Publish to GitHub Pages (gh-pages)
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
