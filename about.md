@@ -49,7 +49,7 @@ I work at the intersection of **tea, technology, and entrepreneurship**—modern
 
 ## Education
 - **Bentley University (Waltham, MA)** — B.S. in **Managerial Economics**; Minor in **International Studies** *(Jan 2008)*  
-  GPA **3.61/4.0**, **Magna Cum Laude**; President’s List; Honors Program; **Beta Gamma Sigma** & **Omicron Delta Epsilon**.
+  **Magna Cum Laude**; President’s List; Honors Program; **Beta Gamma Sigma** & **Omicron Delta Epsilon**.
 - **Eton College (London, UK)** — International Exchange Scholarship Program *(Summer 2003)*  
 - **Brazil Short-Term Program** — São Paulo & Rio de Janeiro *(Jan 2006)*; Incubadora Afro-Brasileira seminar  
 - **Ghana Short-Term Program** — Accra *(Aug 2006)*; service learning with HUGS International TLC (UK ops)
@@ -66,7 +66,7 @@ I work at the intersection of **tea, technology, and entrepreneurship**—modern
 
 ## Skills (selected)
 **AI/ML & Data:** PyTorch, TensorFlow, OpenCV, scikit-learn, R, SQL, NumPy, Matplotlib  
-**Data Products & BI:** Power BI, Tableau  
+**Data Analytics & BI:** Power BI, Tableau  
 **Software & Cloud:** JavaScript, Flask, Django, AWS (architecture), Replit, Cursor  
 **Delivery & Workflow:** JIRA, Trello
 
