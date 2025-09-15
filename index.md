@@ -1,12 +1,7 @@
----
-title: "Shekib's blog on applied AI and its implications"
-page-layout: full
-listing:
-  contents: posts
-  sort: date desc
-  type: default
-  categories: true
-  feed: true
----
+Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
 
-Welcome! Notes and thoughts on applied AI and its impact.
+![Image of fast.ai logo](images/logo.png)
+
+## This is a title
+
+And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
