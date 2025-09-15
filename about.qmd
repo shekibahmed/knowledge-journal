@@ -111,5 +111,3 @@ I work at the intersection of **tea, technology, and entrepreneurship**—modern
 Resident Assistant; Spiritual Life Advisor; Director, **Bentley Entrepreneurship Society**; **Bentley Model United Nations**; Moroccan delegation, **Model Arab League** (Northeastern Univ., 2004); **Service Learning** (Fitzgerald High School, IT classes); Student Mentor, **Project Eye-to-Eye**.
 
 ---
-
-*Last updated: {{ site.time | date: "%B %d, %Y" }}*
