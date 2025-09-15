@@ -1,0 +1,15 @@
+---
+title: About
+---
+
+This site is built with Quarto using the blog template.
+
+- Purpose: Share practical notes and experiments.
+- Stack: Quarto websites with a posts listing.
+
+Find the posts on the home page, and feel free to adapt this content.
+
+Find me online:
+
+- GitHub: https://github.com/shekibahmed
+- Twitter: https://twitter.com/shekibahmed

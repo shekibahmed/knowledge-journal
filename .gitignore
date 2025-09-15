@@ -7,3 +7,15 @@ _site
 .jekyll-metadata
 vendor
 _notebooks/.ipynb_checkpoints
+
+# Jekyll legacy
+_config.yml
+Gemfile
+
+# Quarto build
+_site/
+.quarto/
+.DS_Store
+
+/.quarto/
+**/*.quarto_ipynb

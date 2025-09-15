@@ -1,0 +1,13 @@
+---
+title: "Welcome"
+description: "First post in the new Quarto blog."
+date: 2025-01-01
+categories: [general]
+---
+
+This is a sample post to verify the blog listing works.
+
+- Edit this file or add more posts in `posts/`
+- Use `quarto preview` to see changes live
+
+Happy writing!

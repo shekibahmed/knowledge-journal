@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Knowledge Journal"
+  description: "A Quarto blog"
+  favicon: images/logo.png
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/shekibahmed
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/shekibahmed
+        aria-label: Twitter
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

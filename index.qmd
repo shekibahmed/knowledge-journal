@@ -1,0 +1,10 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  type: default
+  categories: true
+  sort: "date desc"
+---
+
+Welcome to the Knowledge Journal. This is a clean Quarto blog scaffold.
