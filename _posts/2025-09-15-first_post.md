@@ -1,4 +1,0 @@
-# Hello world
-
-This is my first post on the blog!
-Testing the upload from the terminal.

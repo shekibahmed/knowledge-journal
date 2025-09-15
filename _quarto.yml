@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Applied AI notes for everyone"
+  site-url: https://shekibahmed.github.io/knowledge-journal
+  navbar:
+    logo: images/logo.png
+    left:
+      - href: index.md
+        text: Home
+      - href: about.qmd
+        text: About
+    right:
+      - icon: rss
+        aria-label: RSS
+        href: index.xml
+  page-footer:
+    right:
+      - icon: rss
+        text: RSS
+        href: index.xml
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+execute:
+  freeze: auto
