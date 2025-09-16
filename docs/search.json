@@ -1,7 +1,14 @@
 [
   {
-    "objectID": "posts/2025-01-01-welcome.html",
-    "href": "posts/2025-01-01-welcome.html",
+    "objectID": "topics/index.html",
+    "href": "topics/index.html",
+    "title": "Topics",
+    "section": "",
+    "text": "Explore the themes that weave through Knowledge Journal. Select a topic to see every post connected to that idea. The grouped listing below updates automatically whenever you add new posts with categories in their front matter.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-09-25-codexGPT5.html",
+    "href": "posts/2025-09-25-codexGPT5.html",
     "title": "New Usage with GPT and Quarto along with Codex CLI",
     "section": "",
     "text": "The latest version of the Codex CLI interface now supports the new GPT-4-turbo model, which is optimized for both speed and cost-efficiency. This makes it an excellent choice for integrating AI capabilities into various applications, including Quarto documents. It was able to deal with challenges with my codebase very quickly and intuitively. It will take a while to get used to the different modalities in which Codex is available. In some cases it makes sense to use the local version because it can understand all the issues with my codebase really well and in other cases when my device cannot handle the load, I can use the cloud version."
@@ -145,13 +152,6 @@
     "title": "Blog",
     "section": "",
     "text": "Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. I have also been involved in the creation of open source tools and packages to facilitate data analysis and visualization. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Usage with GPT and Quarto along with Codex CLI\n\n\n\nAI\n\nGPT\n\nQuarto\n\nCLI\n\n\n\nAn experience using the CLI interface with the new model\n\n\n\n\n\nSep 25, 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "topics/index.html",
-    "href": "topics/index.html",
-    "title": "Topics",
-    "section": "",
-    "text": "Explore the themes that weave through Knowledge Journal. Select a topic to see every post connected to that idea. The grouped listing below updates automatically whenever you add new posts with categories in their front matter.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/index.html",

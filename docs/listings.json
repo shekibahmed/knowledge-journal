@@ -1,12 +1,12 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/2025-01-01-welcome.html"
-    ]
-  },
-  {
     "listing": "/topics/index.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2025-09-25-codexGPT5.html"
+    ]
   }
 ]
