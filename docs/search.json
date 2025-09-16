@@ -151,7 +151,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. I have also been involved in the creation of open source tools and packages to facilitate data analysis and visualization. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Usage with GPT and Quarto along with Codex CLI\n\n\n\nAI\n\nGPT\n\nQuarto\n\nCLI\n\n\n\nAn experience using the CLI interface with the new model\n\n\n\n\n\nSep 25, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Usage with GPT and Quarto along with Codex CLI\n\n\n\nAI\n\nGPT\n\nQuarto\n\nCLI\n\n\n\nAn experience using the CLI interface with the new model\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "resources/index.html",
@@ -173,5 +173,12 @@
     "title": "Resources",
     "section": "How to Contribute",
     "text": "How to Contribute\n\nPlace new files in assets/ using descriptive, kebab-case names.\nUpdate this page with a short description, version/date, and usage notes.\nReference the asset from the relevant post so readers know where to find it."
+  },
+  {
+    "objectID": "posts/2025-09-16-codexGPT5.html",
+    "href": "posts/2025-09-16-codexGPT5.html",
+    "title": "New Usage with GPT and Quarto along with Codex CLI",
+    "section": "",
+    "text": "The latest version of the Codex CLI interface now supports the new GPT-4-turbo model, which is optimized for both speed and cost-efficiency. This makes it an excellent choice for integrating AI capabilities into various applications, including Quarto documents. It was able to deal with challenges with my codebase very quickly and intuitively. It will take a while to get used to the different modalities in which Codex is available. In some cases it makes sense to use the local version because it can understand all the issues with my codebase really well and in other cases when my device cannot handle the load, I can use the cloud version."
   }
 ]
