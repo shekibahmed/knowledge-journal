@@ -7,4 +7,4 @@ listing:
   sort: "date desc"
 ---
 
-Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. I have also been involved in the creation of open source tools and packages to facilitate data analysis and visualization. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.
+Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.
