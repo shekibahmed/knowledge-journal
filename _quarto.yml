@@ -15,8 +15,6 @@ website:
     pinned: true
     collapse-below: lg
     left:
-      - text: "Home"
-        href: index.qmd
       - text: "Posts"
         href: index.qmd
       - text: "Topics"
