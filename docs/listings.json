@@ -4,5 +4,9 @@
     "items": [
       "/posts/2025-01-01-welcome.html"
     ]
+  },
+  {
+    "listing": "/topics/index.html",
+    "items": []
   }
 ]

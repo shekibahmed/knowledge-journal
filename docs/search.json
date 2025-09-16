@@ -2,9 +2,86 @@
   {
     "objectID": "posts/2025-01-01-welcome.html",
     "href": "posts/2025-01-01-welcome.html",
-    "title": "Welcome",
+    "title": "New Usage with GPT and Quarto along with Codex CLI",
     "section": "",
-    "text": "This is a sample post to verify the blog listing works.\n\nEdit this file or add more posts in posts/\nUse quarto preview to see changes live\n\nHappy writing!"
+    "text": "The latest version of the Codex CLI interface now supports the new GPT-4-turbo model, which is optimized for both speed and cost-efficiency. This makes it an excellent choice for integrating AI capabilities into various applications, including Quarto documents. It was able to deal with challenges with my codebase very quickly and intuitively. It will take a while to get used to the different modalities in which Codex is available. In some cases it makes sense to use the local version because it can understand all the issues with my codebase really well and in other cases when my device cannot handle the load, I can use the cloud version."
+  },
+  {
+    "objectID": "AGENTS.html",
+    "href": "AGENTS.html",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "This document equips new and returning contributors to work efficiently on the Knowledge Journal, a Quarto-powered digital garden. Follow the steps below to keep content consistent, accessible, and easy to publish.\n\n\n\n\nInstall Quarto locally; ensure quarto --version works.\nClone the repository and switch to a feature branch named after your change (e.g., feature/add-neural-notes).\nRun quarto preview to verify the site builds before editing anything.\nKeep docs/ untouched unless you intentionally render a production build.\n\n\n\n\n\nindex.qmd — landing page content and featured listings.\nabout.qmd — profile/about section; keep tone in sync with the main site.\nposts/ — dated .qmd entries. _metadata.yml sets default options for the folder.\nimages/ — canonical image assets. Prefer relative references like images/diagram.png.\nassets/ — downloadable files (PDFs, datasets). Organize them by topic folders if volume grows.\n_quarto.yml — project configuration (navigation, theme, listings, formats).\n_site/ — Quarto preview output. Safe to delete; never commit.\ndocs/ — production build for GitHub Pages. Commit only when intentionally publishing.\n\n\n\n\n\nCreate a draft file under posts/YYYY-MM-DD-descriptive-title.qmd using ISO date prefixes and kebab-case slugs.\nCopy YAML front matter from a recent post or rely on _metadata.yml defaults; add title, description, and optional categories.\nStructure content using Markdown headings. Keep paragraphs short and embed callouts or code blocks when they improve clarity.\nWhen code should not execute during build, add execute: false at the chunk or document level.\nRun quarto preview to confirm formatting, link targets, and navigation entries render correctly.\n\n\n\n\n\nUse active voice, concise sentences, and descriptive headings (≤60 characters when possible).\nLimit lines to ~80 characters to ease diff reviews.\nProvide alt text for every image (![Alt text](images/figure.png)).\nPrefer absolute URLs for external references and relative links for internal cross-links ([link](../posts/...)).\nInclude callouts (::: {.callout-note}) only when they add value; keep them short.\n\n\n\n\n\nPlace reusable images in images/; keep filenames kebab-case and descriptive.\nLarge media (video, notebooks) should live in external storage; link rather than commit when files exceed a few MB.\nCompress images before committing. Aim for &lt;500 KB PNG/JPEG when practical.\nWhen adding downloadable files, update any referencing posts to link via assets/ paths.\n\n\n\n\n\nquarto preview — live reload during writing; safe for continuous use.\nquarto render — produce a production-ready build in docs/. Run before publishing.\nquarto check — catch metadata, link, and dependency issues; run before opening a PR.\n\n\n\n\n\nWrite commits in present tense under ~60 characters (e.g., add transformer memory post).\nGroup related edits (post content + images) into a single commit or PR to keep history coherent.\nRebase or merge main before requesting review; resolve conflicts locally.\nFor PR descriptions, include: summary of changes, rendered screenshots if visual updates, and mention any follow-up work.\nAvoid committing _site/ output or temporary notebooks; add .gitignore entries if necessary.\n\n\n\n\n\nEnsure quarto render completes without errors and updates docs/.\nReview the rendered site locally in _site/ or docs/ for layout regressions.\nCommit updated source files and, if publishing, the regenerated docs/ output.\nPush your branch, open a PR, and request review from a maintainer.\nOnce approved, merge to main and deploy via GitHub Pages or quarto publish gh-pages as configured.\n\n\n\n\n\nConsult Quarto documentation for format-specific questions: https://quarto.org/docs/\nCheck existing posts for tone, structure, and metadata conventions before deviating.\nIf you encounter build or dependency issues, open a discussion or issue with logs from quarto check."
+  },
+  {
+    "objectID": "AGENTS.html#purpose",
+    "href": "AGENTS.html#purpose",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "This document equips new and returning contributors to work efficiently on the Knowledge Journal, a Quarto-powered digital garden. Follow the steps below to keep content consistent, accessible, and easy to publish."
+  },
+  {
+    "objectID": "AGENTS.html#quick-start-checklist",
+    "href": "AGENTS.html#quick-start-checklist",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Install Quarto locally; ensure quarto --version works.\nClone the repository and switch to a feature branch named after your change (e.g., feature/add-neural-notes).\nRun quarto preview to verify the site builds before editing anything.\nKeep docs/ untouched unless you intentionally render a production build."
+  },
+  {
+    "objectID": "AGENTS.html#repository-layout-at-a-glance",
+    "href": "AGENTS.html#repository-layout-at-a-glance",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "index.qmd — landing page content and featured listings.\nabout.qmd — profile/about section; keep tone in sync with the main site.\nposts/ — dated .qmd entries. _metadata.yml sets default options for the folder.\nimages/ — canonical image assets. Prefer relative references like images/diagram.png.\nassets/ — downloadable files (PDFs, datasets). Organize them by topic folders if volume grows.\n_quarto.yml — project configuration (navigation, theme, listings, formats).\n_site/ — Quarto preview output. Safe to delete; never commit.\ndocs/ — production build for GitHub Pages. Commit only when intentionally publishing."
+  },
+  {
+    "objectID": "AGENTS.html#writing-workflow",
+    "href": "AGENTS.html#writing-workflow",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Create a draft file under posts/YYYY-MM-DD-descriptive-title.qmd using ISO date prefixes and kebab-case slugs.\nCopy YAML front matter from a recent post or rely on _metadata.yml defaults; add title, description, and optional categories.\nStructure content using Markdown headings. Keep paragraphs short and embed callouts or code blocks when they improve clarity.\nWhen code should not execute during build, add execute: false at the chunk or document level.\nRun quarto preview to confirm formatting, link targets, and navigation entries render correctly."
+  },
+  {
+    "objectID": "AGENTS.html#style-accessibility-guidelines",
+    "href": "AGENTS.html#style-accessibility-guidelines",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Use active voice, concise sentences, and descriptive headings (≤60 characters when possible).\nLimit lines to ~80 characters to ease diff reviews.\nProvide alt text for every image (![Alt text](images/figure.png)).\nPrefer absolute URLs for external references and relative links for internal cross-links ([link](../posts/...)).\nInclude callouts (::: {.callout-note}) only when they add value; keep them short."
+  },
+  {
+    "objectID": "AGENTS.html#working-with-media-assets",
+    "href": "AGENTS.html#working-with-media-assets",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Place reusable images in images/; keep filenames kebab-case and descriptive.\nLarge media (video, notebooks) should live in external storage; link rather than commit when files exceed a few MB.\nCompress images before committing. Aim for &lt;500 KB PNG/JPEG when practical.\nWhen adding downloadable files, update any referencing posts to link via assets/ paths."
+  },
+  {
+    "objectID": "AGENTS.html#build-validation-commands",
+    "href": "AGENTS.html#build-validation-commands",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "quarto preview — live reload during writing; safe for continuous use.\nquarto render — produce a production-ready build in docs/. Run before publishing.\nquarto check — catch metadata, link, and dependency issues; run before opening a PR."
+  },
+  {
+    "objectID": "AGENTS.html#collaboration-git-hygiene",
+    "href": "AGENTS.html#collaboration-git-hygiene",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Write commits in present tense under ~60 characters (e.g., add transformer memory post).\nGroup related edits (post content + images) into a single commit or PR to keep history coherent.\nRebase or merge main before requesting review; resolve conflicts locally.\nFor PR descriptions, include: summary of changes, rendered screenshots if visual updates, and mention any follow-up work.\nAvoid committing _site/ output or temporary notebooks; add .gitignore entries if necessary."
+  },
+  {
+    "objectID": "AGENTS.html#publishing-workflow",
+    "href": "AGENTS.html#publishing-workflow",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Ensure quarto render completes without errors and updates docs/.\nReview the rendered site locally in _site/ or docs/ for layout regressions.\nCommit updated source files and, if publishing, the regenerated docs/ output.\nPush your branch, open a PR, and request review from a maintainer.\nOnce approved, merge to main and deploy via GitHub Pages or quarto publish gh-pages as configured."
+  },
+  {
+    "objectID": "AGENTS.html#support-resources",
+    "href": "AGENTS.html#support-resources",
+    "title": "Knowledge Journal Contributor Guide",
+    "section": "",
+    "text": "Consult Quarto documentation for format-specific questions: https://quarto.org/docs/\nCheck existing posts for tone, structure, and metadata conventions before deviating.\nIf you encounter build or dependency issues, open a discussion or issue with logs from quarto check."
   },
   {
     "objectID": "about.html",
@@ -67,6 +144,34 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to the Knowledge Journal. This is a clean Quarto blog scaffold.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\ngeneral\n\n\n\nFirst post in the new Quarto blog.\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. I have also been involved in the creation of open source tools and packages to facilitate data analysis and visualization. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Usage with GPT and Quarto along with Codex CLI\n\n\n\nAI\n\nGPT\n\nQuarto\n\nCLI\n\n\n\nAn experience using the CLI interface with the new model\n\n\n\n\n\nSep 25, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "topics/index.html",
+    "href": "topics/index.html",
+    "title": "Topics",
+    "section": "",
+    "text": "Explore the themes that weave through Knowledge Journal. Select a topic to see every post connected to that idea. The grouped listing below updates automatically whenever you add new posts with categories in their front matter.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Looking for supporting material from posts or talks? This hub tracks everything stored in the assets/ directory so you can quickly grab slide decks, datasets, and templates."
+  },
+  {
+    "objectID": "resources/index.html#downloads",
+    "href": "resources/index.html#downloads",
+    "title": "Resources",
+    "section": "Downloads",
+    "text": "Downloads\nNo resources have been uploaded yet. Once you add files under assets/, list them here with short descriptions and direct links, for example:\n\nassets/tea-market-dashboard.xlsx — Sample analytics workbook for tea price monitoring.\nassets/vision-quality-model.zip — Trained computer vision model weights for quality inspection."
+  },
+  {
+    "objectID": "resources/index.html#how-to-contribute",
+    "href": "resources/index.html#how-to-contribute",
+    "title": "Resources",
+    "section": "How to Contribute",
+    "text": "How to Contribute\n\nPlace new files in assets/ using descriptive, kebab-case names.\nUpdate this page with a short description, version/date, and usage notes.\nReference the asset from the relevant post so readers know where to find it."
   }
 ]

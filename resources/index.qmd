@@ -1,0 +1,21 @@
+---
+title: "Resources"
+description: "Downloadable files, data sets, and templates referenced across the Knowledge Journal."
+page-layout: article
+toc: false
+---
+
+Looking for supporting material from posts or talks? This hub tracks everything stored in the `assets/` directory so you can quickly grab slide decks, datasets, and templates.
+
+## Downloads
+
+No resources have been uploaded yet. Once you add files under `assets/`, list them here with short descriptions and direct links, for example:
+
+- [assets/tea-market-dashboard.xlsx](../assets/tea-market-dashboard.xlsx) — Sample analytics workbook for tea price monitoring.
+- [assets/vision-quality-model.zip](../assets/vision-quality-model.zip) — Trained computer vision model weights for quality inspection.
+
+## How to Contribute
+
+1. Place new files in `assets/` using descriptive, kebab-case names.
+2. Update this page with a short description, version/date, and usage notes.
+3. Reference the asset from the relevant post so readers know where to find it.

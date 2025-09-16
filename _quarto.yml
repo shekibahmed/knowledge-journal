@@ -7,15 +7,48 @@ website:
   description: "A Quarto blog"
   favicon: images/logo.png
   site-url: https://shekibahmed.github.io/knowledge-journal
+  search:
+    location: navbar
+    type: overlay
   navbar:
+    logo: images/logo.png
+    pinned: true
+    collapse-below: lg
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Posts"
+        href: index.qmd
+      - text: "Topics"
+        href: topics/
+      - text: "Resources"
+        href: resources/
     right:
-      - about.qmd
+      - text: "About"
+        href: about.qmd
       - icon: github
         href: https://github.com/shekibahmed
         aria-label: GitHub
       - icon: twitter
         href: https://twitter.com/shekibahmed
         aria-label: Twitter
+
+metadata:
+  categories:
+    title: "Topics"
+    description: "Browse posts and notes by theme."
+    path: topics
+    listing:
+      contents: posts
+      type: grid
+      sort: "title"
+  tags:
+    title: "Tags"
+    path: tags
+    listing:
+      contents: posts
+      type: table
+      sort: "title"
 
 format:
   html:

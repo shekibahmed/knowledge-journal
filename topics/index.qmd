@@ -1,0 +1,13 @@
+---
+title: "Topics"
+description: "Browse Knowledge Journal posts by theme."
+listing:
+  contents: posts
+  type: default
+  categories: true
+  sort: "date desc"
+  filter-ui: true
+  feed: false
+---
+
+Explore the themes that weave through Knowledge Journal. Select a topic to see every post connected to that idea. The grouped listing below updates automatically whenever you add new posts with categories in their front matter.

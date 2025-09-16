@@ -1,0 +1,8 @@
+---
+title: "New Usage with GPT and Quarto along with Codex CLI"
+description: "An experience using the CLI interface with the new model"
+date: 2025-09-25
+categories: ["AI", "GPT", "Quarto", "CLI"]
+---
+
+The latest version of the Codex CLI interface now supports the new GPT-4-turbo model, which is optimized for both speed and cost-efficiency. This makes it an excellent choice for integrating AI capabilities into various applications, including Quarto documents. It was able to deal with challenges with my codebase very quickly and intuitively. It will take a while to get used to the different modalities in which Codex is available. In some cases it makes sense to use the local version because it can understand all the issues with my codebase really well and in other cases when my device cannot handle the load, I can use the cloud version.
