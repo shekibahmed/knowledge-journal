@@ -44,4 +44,4 @@ Deep exploration of evolutionary biology and genetics.
 The successful design, experimental synthesis, and therapeutic demonstration of these AI-created viruses marks a transformative moment for science. It redefines the frontier of what is possible with synthetic biology and artificial intelligence, accelerating humanity’s ability to respond to old threats such as antibiotic resistance and to design the biological innovations of tomorrow.
 
 Source:
-Repecka, D., Chen, E. X., Bruestle, J., et al. (2025). Generative design of novel bacteriophages with genome language models. bioRxiv. https://doi.org/10.1101/2025.09.12.675911
+Repecka, D., Chen, E. X., Bruestle, J., et al. (2025). Generative design of novel bacteriophages with genome language models. bioRxiv. <https://doi.org/10.1101/2025.09.12.675911>
