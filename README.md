@@ -24,3 +24,8 @@ This repository is a clean Quarto website configured as a blog.
 3. Write your content in Markdown/Quarto.
 
 The home page (`index.qmd`) lists posts from `posts/`, supports categories and an RSS feed.
+
+## Changelog Automation
+- Install [git-cliff](https://github.com/orhun/git-cliff) (`cargo install git-cliff` or grab a prebuilt binary) to generate release notes locally.
+- Run `git cliff --unreleased --output CHANGELOG.md` to refresh the changelog before opening a PR.
+- A GitHub Action keeps the changelog in sync during releases.
