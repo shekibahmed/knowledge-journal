@@ -18,7 +18,7 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNew Usage with GPT and Quarto along with Codex CLI\n\n\n\nAI\n\nGPT\n\nQuarto\n\nCLI\n\n\n\nAn experience using the CLI interface with the new model\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLiteracy barrier overcome through Voice AI\n\n\n\nAI\n\nVoice\n\nLiteracy\n\nEmotional Intelligence\n\nGrassroots growth\n\n\n\nThe paradigm shift in accessibility\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the Knowledge Journal. This is a collection of articles and tutorials on various topics related to data science, programming, and technology. Explore the posts below to find insights, tips, and guides to enhance your skills and knowledge. In the last few years I have been working on the development of applied solutions for agri tech and health tech. The aspiration is to make these technology solutions accessible to a wider audience and to contribute to the open source community.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI-Powered Breakthrough in Synthetic Biology — Generative Design of Bacteriophages\n\n\n\nAI\n\nBioTech\n\n\n\nA groundbreaking study demonstrating how advanced genome language models can generatively design entire, functional bacteriophage genomes—enabling rapid creation of novel viruses to combat antibiotic-resistant bacteria and opening new frontiers in AI-driven synthetic biology.\n\n\n\n\n\nSep 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNew Usage with GPT and Quarto along with Codex CLI\n\n\n\nAI\n\nGPT\n\nQuarto\n\nCLI\n\n\n\nAn experience using the CLI interface with the new model\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nLiteracy barrier overcome through Voice AI\n\n\n\nAI\n\nVoice\n\nLiteracy\n\nEmotional Intelligence\n\nGrassroots growth\n\n\n\nThe paradigm shift in accessibility\n\n\n\n\n\nSep 16, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -180,5 +180,54 @@
     "title": "Resources",
     "section": "How to Contribute",
     "text": "How to Contribute\n\nPlace new files in assets/ using descriptive, kebab-case names.\nUpdate this page with a short description, version/date, and usage notes.\nReference the asset from the relevant post so readers know where to find it."
+  },
+  {
+    "objectID": "GEMINI.html",
+    "href": "GEMINI.html",
+    "title": "Gemini Customization",
+    "section": "",
+    "text": "This file provides instructions to Gemini on how to interact with this project.\n\n\nThis is a Quarto blog project. The main technologies used are Quarto and Markdown. The website is generated in the docs directory.\n\n\n\n\n_quarto.yml: The main configuration file for the Quarto project.\nindex.qmd: The home page of the blog, which lists all the posts.\nposts/: This directory contains the blog posts as .qmd files.\ndocs/: This directory contains the generated website. It is the output directory for the Quarto project.\nimages/: This directory contains images used in the blog.\nstyles.css: This file contains the custom CSS for the blog.\n\n\n\n\n\nCreate a new file in the posts/ directory with the name YYYY-MM-DD-title.qmd.\nAdd the following front matter to the file:\n---\ntitle: \"Your Title\"\ndate: YYYY-MM-DD\ncategories: [tag1, tag2]\n---\nWrite the content of the post in Markdown.\n\n\n\n\n\nTo preview the website locally, run the command quarto preview.\nTo render the website, run the command quarto render."
+  },
+  {
+    "objectID": "GEMINI.html#project-overview",
+    "href": "GEMINI.html#project-overview",
+    "title": "Gemini Customization",
+    "section": "",
+    "text": "This is a Quarto blog project. The main technologies used are Quarto and Markdown. The website is generated in the docs directory."
+  },
+  {
+    "objectID": "GEMINI.html#project-structure",
+    "href": "GEMINI.html#project-structure",
+    "title": "Gemini Customization",
+    "section": "",
+    "text": "_quarto.yml: The main configuration file for the Quarto project.\nindex.qmd: The home page of the blog, which lists all the posts.\nposts/: This directory contains the blog posts as .qmd files.\ndocs/: This directory contains the generated website. It is the output directory for the Quarto project.\nimages/: This directory contains images used in the blog.\nstyles.css: This file contains the custom CSS for the blog."
+  },
+  {
+    "objectID": "GEMINI.html#how-to-create-a-new-post",
+    "href": "GEMINI.html#how-to-create-a-new-post",
+    "title": "Gemini Customization",
+    "section": "",
+    "text": "Create a new file in the posts/ directory with the name YYYY-MM-DD-title.qmd.\nAdd the following front matter to the file:\n---\ntitle: \"Your Title\"\ndate: YYYY-MM-DD\ncategories: [tag1, tag2]\n---\nWrite the content of the post in Markdown."
+  },
+  {
+    "objectID": "GEMINI.html#development",
+    "href": "GEMINI.html#development",
+    "title": "Gemini Customization",
+    "section": "",
+    "text": "To preview the website locally, run the command quarto preview.\nTo render the website, run the command quarto render."
+  },
+  {
+    "objectID": "CHANGELOG.html",
+    "href": "CHANGELOG.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Changelog\nAll notable changes to this project will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. ## [Unreleased]\n\nNo changes recorded."
+  },
+  {
+    "objectID": "posts/2025-09-20-generativeBacteria.html",
+    "href": "posts/2025-09-20-generativeBacteria.html",
+    "title": "AI-Powered Breakthrough in Synthetic Biology — Generative Design of Bacteriophages",
+    "section": "",
+    "text": "In a pioneering leap for synthetic biology, a new preprint on bioRxiv describes how artificial intelligence, through genome language models, has been used to successfully generate, from scratch, entire functional bacteriophage genomes. These advancements, led using the Evo 1 and Evo 2 genome models, represent a foundational breakthrough in the generative design of novel life forms.\n\nBackground: The Power of Genome Language Models\nTraditionally, much of biology’s progress in genetic engineering relied on modifying existing genes or elements. However, assembling whole genomes—taking into account all regulatory, coding, and structural factors—represents a colossal step up in challenge and ambition. Bacteriophages (viruses that infect bacteria) are critical both as research models and as tools in developing therapies against antibiotic-resistant superbugs.\n\n\nThe Study: How Did They Do It?\nThe researchers fine-tuned generative AI models on extensive datasets of phage genomes, setting the well-studied E. coli bacteriophage ΦX174 as a design template. The workflow involved:\nTraining genome language models to understand genome-level evolution and structure.\nGenerating thousands of full-length candidate virus genomes with steerable properties (e.g., targeting specific bacteria).\nFiltering these AI-generated sequences for biological viability, diversity, and tropism specificity.\nExperimentally synthesizing and screening ~300 of the best designs.\nThe Breakthrough: Real, Viable Viruses Engineered by AI\nSixteen totally new synthetic bacteriophages (engineered by AI, never before seen in nature) proved to be functional. Not only did they successfully infect E. coli, but some outperformed the natural template virus, displaying higher lytic ability and greater fitness in competition assays. Cryo-electron microscopy showed that the AI-created viruses could integrate highly mutated or evolutionarily distant elements stably.\nA particularly stunning result was that a cocktail of these novel phages rapidly killed E. coli strains that had become resistant to the natural virus. This points to immense future promise for personalized antibacterial therapies—especially as antibiotic resistance becomes a growing global crisis.\nWider Implications: A New Era for Synthetic Biology\nThis paper is landmark proof that genome-scale language models can generatively design whole organisms—not just proteins or short sequences—under precisely steerable constraints. The techniques and workflows developed are generalizable, laying the scientific and technological blueprint for:\nAI-driven creation of viruses and potentially larger, more complex living systems.\nRapid prototyping of biotherapeutics customized to emerging pathogens.\nDeep exploration of evolutionary biology and genetics.\nConclusion: Generative AI’s Impact on the Future of Biology\nThe successful design, experimental synthesis, and therapeutic demonstration of these AI-created viruses marks a transformative moment for science. It redefines the frontier of what is possible with synthetic biology and artificial intelligence, accelerating humanity’s ability to respond to old threats such as antibiotic resistance and to design the biological innovations of tomorrow.\nFor more science news and the latest in AI-driven biotechnology, watch this space!"
   }
 ]
