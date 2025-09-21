@@ -4,6 +4,7 @@ description: "A groundbreaking study demonstrating how advanced genome language 
 date: 2025-09-20
 categories: ["AI", "BioTech"]
 ---
+title-block-categories: false
 
 In a pioneering leap for synthetic biology, a new preprint on bioRxiv describes how artificial intelligence, through genome language models, has been used to successfully generate, from scratch, entire functional bacteriophage genomes. These advancements, led using the Evo 1 and Evo 2 genome models, represent a foundational breakthrough in the generative design of novel life forms.
 

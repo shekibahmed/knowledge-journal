@@ -31,23 +31,6 @@ website:
         href: https://twitter.com/shekibahmed
         aria-label: Twitter
 
-metadata:
-  categories:
-    title: "Topics"
-    description: "Browse posts and notes by theme."
-    path: topics
-    listing:
-      contents: posts
-      type: grid
-      sort: "title"
-  tags:
-    title: "Tags"
-    path: tags
-    listing:
-      contents: posts
-      type: table
-      sort: "title"
-
 format:
   html:
     theme: cosmo
