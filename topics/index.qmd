@@ -1,8 +1,8 @@
----
+﻿---
 title: "Topics"
 description: "Browse Knowledge Journal posts by theme."
 listing:
-  contents: posts
+  contents: ../posts
   type: default
   categories: true
   sort: "date desc"
