@@ -1,19 +1,35 @@
+# This is the main configuration file for the Quarto project.
+
 project:
+  # Specifies the type of project, in this case, a website.
   type: website
+  # Sets the output directory for the rendered site.
   output-dir: docs
 
 website:
+  # The main title of the website, displayed in the browser tab and navbar.
   title: "Knowledge Journal"
+  # A brief description of the website, used for SEO.
   description: "A Quarto blog"
+  # The favicon for the website.
   favicon: images/logo.png
+  # The base URL for the website.
   site-url: https://shekibahmed.github.io/knowledge-journal
+  # Configures the search functionality for the website.
   search:
+    # The location of the search bar in the navbar.
     location: navbar
+    # The type of search interface.
     type: overlay
+  # Configures the navigation bar at the top of the website.
   navbar:
+    # The logo displayed in the navbar.
     logo: images/logo.png
+    # Pins the navbar to the top of the page.
     pinned: true
+    # The viewport width at which to collapse the navbar.
     collapse-below: lg
+    # Links displayed on the left side of the navbar.
     left:
       - text: "Posts"
         href: index.qmd
@@ -21,6 +37,7 @@ website:
         href: topics/
       - text: "Resources"
         href: resources/
+    # Links and icons displayed on the right side of the navbar.
     right:
       - text: "About"
         href: about.qmd
@@ -31,7 +48,10 @@ website:
         href: https://twitter.com/shekibahmed
         aria-label: Twitter
 
+# Configures the output format for the website.
 format:
   html:
+    # The visual theme for the website.
     theme: cosmo
+    # Custom CSS file for additional styling.
     css: styles.css

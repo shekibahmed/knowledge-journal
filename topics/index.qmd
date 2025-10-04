@@ -1,6 +1,6 @@
 ---
 title: "Topics"
-description: "Browse Knowledge Journal posts by theme."
+description: "An index page that allows users to browse and filter all Knowledge Journal posts by their assigned topics and categories."
 listing:
   contents: posts
   type: default
