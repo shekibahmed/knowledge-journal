@@ -1,6 +1,6 @@
 ---
 title: "New Usage with GPT and Quarto along with Codex CLI"
-description: "An experience using the CLI interface with the new model"
+description: "A review of the Codex CLI's integration with the new GPT-4-turbo model, highlighting its speed, cost-efficiency, and benefits for Quarto-based workflows, along with a discussion on choosing between local and cloud modalities."
 date: 2025-09-16
 categories: ["AI", "GPT", "Quarto", "CLI"]
 ---
