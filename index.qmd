@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+description: "The main landing page for the Knowledge Journal, which lists all blog posts in reverse chronological order."
 title-block-categories: false
 listing:
   contents: posts

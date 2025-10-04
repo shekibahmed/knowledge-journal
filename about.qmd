@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 permalink: /about/
-description: "Director @ Bagasa Plantations; Founder, Evolving Innovations LLP; AI/ML for tea & agri-supply chains."
+description: "A detailed professional biography of Shekib Ahmed, outlining his work at the intersection of tea, technology, and entrepreneurship, including his experience, education, publications, and skills."
 ---
 
 # Shekib Ahmed

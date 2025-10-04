@@ -1,3 +1,11 @@
+# This file sets default metadata for all posts within the `posts/` directory.
+# These settings apply to every post unless overridden in the post's own front matter.
+
+# Sets the visual style for the title block at the top of each post.
 title-block-style: default
+
+# Defines the overall layout for post pages. 'article' is a standard, readable layout.
 page-layout: article
+
+# Enables the table of contents (TOC) by default for all posts in this directory.
 toc: true
