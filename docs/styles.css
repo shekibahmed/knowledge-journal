@@ -1,12 +1,25 @@
 /* Minimal site styles for the Quarto blog */
+
+/*
+ * Defines a custom CSS variable for the brand's accent color.
+ * This allows for easy customization of the site's primary color theme.
+ */
 :root {
-  --brand-accent: #0d6efd;
+  --brand-accent: #0d6efd; /* A standard blue accent color. */
 }
 
+/*
+ * Removes the default underline from the navbar brand and links.
+ * This creates a cleaner, more modern appearance for the site navigation.
+ */
 .navbar-brand, .navbar a {
   text-decoration: none;
 }
 
+/*
+ * Styles the titles of the blog posts in the listing on the main page.
+ * The color is set to the brand's accent color to create a consistent look.
+ */
 .quarto-listing .listing-title a {
   color: var(--brand-accent);
 }

@@ -1,50 +1,32 @@
-# Agent Operating Guide
+# Repository Guidelines
 
-## Project Context
-- Quarto-powered digital garden and blog.
-- Source content lives in `.qmd` files; rendered output resides in `docs/` (keep hands off unless publishing).
-- Markdown, YAML front matter, and lightweight CSS are the dominant technologies.
+Complement this guide with the broader project overview in [README.md](README.md).
 
-## Primary Objectives
-- Understand each request before editing; inspect related files when unsure.
-- Preserve the editorial voice: concise, friendly, active, and informative.
-- Keep the workspace tidy—prefer small, focused changes and avoid collateral edits.
-- Surface risks, open questions, and validation steps to the user.
+## Project Structure & Module Organization
+- Core pages live in `index.qmd` and `about.qmd`; individual posts reside in `posts/` (defaults set via `posts/_metadata.yml`).
+- Topic landing pages live under `topics/`; shared assets belong in `images/` and `resources/`.
+- Project-wide configuration sits in `_quarto.yml`, with visual tweaks handled by `styles.css`.
+- Rendered output belongs in `docs/`; treat it as build artifacts and edit only when publishing updates.
 
-## Workflow Expectations
-1. **Assess the task**
-   - Review `README.md` or relevant `posts/`, `topics/`, or config files for context.
-   - Confirm whether work touches content, configuration, or build assets.
-2. **Implement deliberately**
-   - Respect front matter conventions (`title`, `description`, `date`, `categories`).
-   - Keep Markdown accessible: add alt text, limit inline HTML, break long lines.
-   - Avoid modifying the generated `docs/` directory; prefer source `.qmd` files.
-3. **Validate and summarize**
-   - Run `quarto preview`, `quarto render`, or `quarto check` when changes warrant it.
-   - Report which commands ran (or why they were skipped) in the final message.
-   - Highlight follow-up actions the user might consider (tests, publishing, etc.).
+## Build, Test, and Development Commands
+- `quarto preview` launches a live-reloading dev server in your browser.
+- `quarto render` produces the production build inside `docs/`; use before shipping changes.
+- `quarto check` validates links, syntax, and project health—run before review.
+- `git cliff --unreleased --output CHANGELOG.md` refreshes `CHANGELOG.md` with unreleased entries.
 
-## Communication Style
-- Lead with the outcome, then explain what changed and where.
-- Reference files with repo-relative paths (e.g., `posts/2024-01-01-example.qmd`).
-- Mention validation results and remaining uncertainties explicitly.
-- Offer next-step suggestions only when they add value.
+## Coding Style & Naming Conventions
+- Author posts as `YYYY-MM-DD-title.qmd`; keep filenames lowercase and kebab-cased.
+- Start each `.qmd` with front matter containing `title`, `description`, `date`, and `categories`.
+- Prefer concise, active prose; wrap lines near 80 chars to ease reviews.
+- Provide descriptive image alt text (`![Brief context](images/example.png)`) and keep Markdown accessibility-friendly.
 
-## Constraints & Non-Goals
-- Do **not** delete or rename existing files unless explicitly instructed.
-- Do **not** invent posts, data, or screenshots; work with repository assets.
-- Treat `CHANGELOG.md` as source-of-truth; update via `git-cliff` if required.
-- Respect the ASCII default—only introduce other characters when necessary.
+## Testing Guidelines
+- Run `quarto check` for structural validation; investigate and resolve all warnings.
+- Manually confirm visual changes via `quarto preview`, focusing on navigation, typography, and internal links.
+- No automated unit tests exist—document manual verification steps in your PR.
 
-## Handy References
-- `README.md`: contributor quick start and repository etiquette.
-- `_quarto.yml`: global site configuration and navigation.
-- `posts/_metadata.yml`: default post options.
-- `styles.css`: custom styling overrides.
-- `resources/` & `images/`: storage for downloads and media.
-
-## Pre-Submit Checklist
-- [ ] Relevant files reviewed before editing.
-- [ ] Changes confined to required scope (no stray whitespace or rebuild artifacts).
-- [ ] Validation commands executed or consciously deferred.
-- [ ] Final response notes changes, validations, and recommended next steps.
+## Commit & Pull Request Guidelines
+- Use present-tense, conventional commits where possible (e.g., `feat: add tiling post layout`).
+- Open PRs from topic branches such as `feature/post-topic` or `fix/navigation-bug`.
+- Summarize user-facing changes, list validation steps (commands run, screenshots if UI shifts), and link any related issues.
+- Before requesting review, ensure `CHANGELOG.md` is current, source files are formatted, and only relevant artifacts are staged.

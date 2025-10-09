@@ -139,97 +139,82 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="knowledge-journal-contributor-guide" class="level1">
-<h1>Knowledge Journal Contributor Guide</h1>
-<section id="purpose" class="level2">
-<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
-<p>This document equips new and returning contributors to work efficiently on the Knowledge Journal, a Quarto-powered digital garden. Follow the steps below to keep content consistent, accessible, and easy to publish.</p>
-</section>
-<section id="quick-start-checklist" class="level2">
-<h2 class="anchored" data-anchor-id="quick-start-checklist">Quick Start Checklist</h2>
+<section id="agent-operating-guide" class="level1">
+<h1>Agent Operating Guide</h1>
+<section id="project-context" class="level2">
+<h2 class="anchored" data-anchor-id="project-context">Project Context</h2>
 <ul>
-<li>Install <a href="https://quarto.org/docs/get-started/">Quarto</a> locally; ensure <code>quarto --version</code> works.</li>
-<li>Clone the repository and switch to a feature branch named after your change (e.g., <code>feature/add-neural-notes</code>).</li>
-<li>Run <code>quarto preview</code> to verify the site builds before editing anything.</li>
-<li>Keep <code>docs/</code> untouched unless you intentionally render a production build.</li>
+<li>Quarto-powered digital garden and blog.</li>
+<li>Source content lives in <code>.qmd</code> files; rendered output resides in <code>docs/</code> (keep hands off unless publishing).</li>
+<li>Markdown, YAML front matter, and lightweight CSS are the dominant technologies.</li>
 </ul>
 </section>
-<section id="repository-layout-at-a-glance" class="level2">
-<h2 class="anchored" data-anchor-id="repository-layout-at-a-glance">Repository Layout At a Glance</h2>
+<section id="primary-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="primary-objectives">Primary Objectives</h2>
 <ul>
-<li><code>index.qmd</code> — landing page content and featured listings.</li>
-<li><code>about.qmd</code> — profile/about section; keep tone in sync with the main site.</li>
-<li><code>posts/</code> — dated <code>.qmd</code> entries. <code>_metadata.yml</code> sets default options for the folder.</li>
-<li><code>images/</code> — canonical image assets. Prefer relative references like <code>images/diagram.png</code>.</li>
-<li><code>assets/</code> — downloadable files (PDFs, datasets). Organize them by topic folders if volume grows.</li>
-<li><code>_quarto.yml</code> — project configuration (navigation, theme, listings, formats).</li>
-<li><code>_site/</code> — Quarto preview output. Safe to delete; never commit.</li>
-<li><code>docs/</code> — production build for GitHub Pages. Commit only when intentionally publishing.</li>
+<li>Understand each request before editing; inspect related files when unsure.</li>
+<li>Preserve the editorial voice: concise, friendly, active, and informative.</li>
+<li>Keep the workspace tidy—prefer small, focused changes and avoid collateral edits.</li>
+<li>Surface risks, open questions, and validation steps to the user.</li>
 </ul>
 </section>
-<section id="writing-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="writing-workflow">Writing Workflow</h2>
+<section id="workflow-expectations" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-expectations">Workflow Expectations</h2>
 <ol type="1">
-<li>Create a draft file under <code>posts/YYYY-MM-DD-descriptive-title.qmd</code> using ISO date prefixes and kebab-case slugs.</li>
-<li>Copy YAML front matter from a recent post or rely on <code>_metadata.yml</code> defaults; add <code>title</code>, <code>description</code>, and optional <code>categories</code>.</li>
-<li>Structure content using Markdown headings. Keep paragraphs short and embed callouts or code blocks when they improve clarity.</li>
-<li>When code should not execute during build, add <code>execute: false</code> at the chunk or document level.</li>
-<li>Run <code>quarto preview</code> to confirm formatting, link targets, and navigation entries render correctly.</li>
+<li><strong>Assess the task</strong>
+<ul>
+<li>Review <code>README.md</code> or relevant <code>posts/</code>, <code>topics/</code>, or config files for context.</li>
+<li>Confirm whether work touches content, configuration, or build assets.</li>
+</ul></li>
+<li><strong>Implement deliberately</strong>
+<ul>
+<li>Respect front matter conventions (<code>title</code>, <code>description</code>, <code>date</code>, <code>categories</code>).</li>
+<li>Keep Markdown accessible: add alt text, limit inline HTML, break long lines.</li>
+<li>Avoid modifying the generated <code>docs/</code> directory; prefer source <code>.qmd</code> files.</li>
+</ul></li>
+<li><strong>Validate and summarize</strong>
+<ul>
+<li>Run <code>quarto preview</code>, <code>quarto render</code>, or <code>quarto check</code> when changes warrant it.</li>
+<li>Report which commands ran (or why they were skipped) in the final message.</li>
+<li>Highlight follow-up actions the user might consider (tests, publishing, etc.).</li>
+</ul></li>
 </ol>
 </section>
-<section id="style-accessibility-guidelines" class="level2">
-<h2 class="anchored" data-anchor-id="style-accessibility-guidelines">Style &amp; Accessibility Guidelines</h2>
+<section id="communication-style" class="level2">
+<h2 class="anchored" data-anchor-id="communication-style">Communication Style</h2>
 <ul>
-<li>Use active voice, concise sentences, and descriptive headings (≤60 characters when possible).</li>
-<li>Limit lines to ~80 characters to ease diff reviews.</li>
-<li>Provide alt text for every image (<code>![Alt text](images/figure.png)</code>).</li>
-<li>Prefer absolute URLs for external references and relative links for internal cross-links (<code>[link](../posts/...)</code>).</li>
-<li>Include callouts (<code>::: {.callout-note}</code>) only when they add value; keep them short.</li>
+<li>Lead with the outcome, then explain what changed and where.</li>
+<li>Reference files with repo-relative paths (e.g., <code>posts/2024-01-01-example.qmd</code>).</li>
+<li>Mention validation results and remaining uncertainties explicitly.</li>
+<li>Offer next-step suggestions only when they add value.</li>
 </ul>
 </section>
-<section id="working-with-media-assets" class="level2">
-<h2 class="anchored" data-anchor-id="working-with-media-assets">Working With Media &amp; Assets</h2>
+<section id="constraints-non-goals" class="level2">
+<h2 class="anchored" data-anchor-id="constraints-non-goals">Constraints &amp; Non-Goals</h2>
 <ul>
-<li>Place reusable images in <code>images/</code>; keep filenames kebab-case and descriptive.</li>
-<li>Large media (video, notebooks) should live in external storage; link rather than commit when files exceed a few MB.</li>
-<li>Compress images before committing. Aim for &lt;500 KB PNG/JPEG when practical.</li>
-<li>When adding downloadable files, update any referencing posts to link via <code>assets/</code> paths.</li>
+<li>Do <strong>not</strong> delete or rename existing files unless explicitly instructed.</li>
+<li>Do <strong>not</strong> invent posts, data, or screenshots; work with repository assets.</li>
+<li>Treat <code>CHANGELOG.md</code> as source-of-truth; update via <code>git-cliff</code> if required.</li>
+<li>Respect the ASCII default—only introduce other characters when necessary.</li>
 </ul>
 </section>
-<section id="build-validation-commands" class="level2">
-<h2 class="anchored" data-anchor-id="build-validation-commands">Build &amp; Validation Commands</h2>
+<section id="handy-references" class="level2">
+<h2 class="anchored" data-anchor-id="handy-references">Handy References</h2>
 <ul>
-<li><code>quarto preview</code> — live reload during writing; safe for continuous use.</li>
-<li><code>quarto render</code> — produce a production-ready build in <code>docs/</code>. Run before publishing.</li>
-<li><code>quarto check</code> — catch metadata, link, and dependency issues; run before opening a PR.</li>
+<li><code>README.md</code>: contributor quick start and repository etiquette.</li>
+<li><code>_quarto.yml</code>: global site configuration and navigation.</li>
+<li><code>posts/_metadata.yml</code>: default post options.</li>
+<li><code>styles.css</code>: custom styling overrides.</li>
+<li><code>resources/</code> &amp; <code>images/</code>: storage for downloads and media.</li>
 </ul>
 </section>
-<section id="collaboration-git-hygiene" class="level2">
-<h2 class="anchored" data-anchor-id="collaboration-git-hygiene">Collaboration &amp; Git Hygiene</h2>
-<ul>
-<li>Write commits in present tense under ~60 characters (e.g., <code>add transformer memory post</code>).</li>
-<li>Group related edits (post content + images) into a single commit or PR to keep history coherent.</li>
-<li>Rebase or merge <code>main</code> before requesting review; resolve conflicts locally.</li>
-<li>For PR descriptions, include: summary of changes, rendered screenshots if visual updates, and mention any follow-up work.</li>
-<li>Avoid committing <code>_site/</code> output or temporary notebooks; add <code>.gitignore</code> entries if necessary.</li>
-</ul>
-</section>
-<section id="publishing-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="publishing-workflow">Publishing Workflow</h2>
-<ol type="1">
-<li>Ensure <code>quarto render</code> completes without errors and updates <code>docs/</code>.</li>
-<li>Review the rendered site locally in <code>_site/</code> or <code>docs/</code> for layout regressions.</li>
-<li>Commit updated source files and, if publishing, the regenerated <code>docs/</code> output.</li>
-<li>Push your branch, open a PR, and request review from a maintainer.</li>
-<li>Once approved, merge to <code>main</code> and deploy via GitHub Pages or <code>quarto publish gh-pages</code> as configured.</li>
-</ol>
-</section>
-<section id="support-resources" class="level2">
-<h2 class="anchored" data-anchor-id="support-resources">Support &amp; Resources</h2>
-<ul>
-<li>Consult Quarto documentation for format-specific questions: <a href="https://quarto.org/docs/" class="uri">https://quarto.org/docs/</a></li>
-<li>Check existing posts for tone, structure, and metadata conventions before deviating.</li>
-<li>If you encounter build or dependency issues, open a discussion or issue with logs from <code>quarto check</code>.</li>
+<section id="pre-submit-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="pre-submit-checklist">Pre-Submit Checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Relevant files reviewed before editing.</label></li>
+<li><label><input type="checkbox">Changes confined to required scope (no stray whitespace or rebuild artifacts).</label></li>
+<li><label><input type="checkbox">Validation commands executed or consciously deferred.</label></li>
+<li><label><input type="checkbox">Final response notes changes, validations, and recommended next steps.</label></li>
 </ul>
 
 
