@@ -2,7 +2,7 @@
 
 Welcome to the Knowledge Journal, a Quarto-powered blog and digital garden. This guide provides everything a new or returning contributor needs to work efficiently on this project.
 
-For contributor guidelines and workflow expectations, see [AGENTS.md](AGENTS.md).
+For contributor guidelines and workflow expectations, see [agents.md](agents.md).
 
 ## Prerequisites
 
