@@ -7,9 +7,13 @@ toc: false
 
 Looking for supporting material from posts or talks? This hub tracks everything stored in the `assets/` directory so you can quickly grab slide decks, datasets, and templates.
 
+## Featured Resources
+
+- [Tea Auction Analytics Overview](tea-auction-analytics.qmd) — High-level summary of the Streamlit-powered analytics platform for CTC tea auction data, including AI narratives, visualization capabilities, and deployment notes.
+
 ## Downloads
 
-No resources have been uploaded yet. Once you add files under `assets/`, list them here with short descriptions and direct links, for example:
+No downloadable files have been uploaded yet. Once you add items under `assets/`, list them here with short descriptions and direct links, for example:
 
 - [assets/tea-market-dashboard.xlsx](../assets/tea-market-dashboard.xlsx) — Sample analytics workbook for tea price monitoring.
 - [assets/vision-quality-model.zip](../assets/vision-quality-model.zip) — Trained computer vision model weights for quality inspection.

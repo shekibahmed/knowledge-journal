@@ -1,0 +1,46 @@
+---
+title: "Tea Auction Analytics Overview"
+description: "Summary of the Tea Auction Analytics Streamlit application and its capabilities."
+date: 2024-02-18
+categories: ["analytics", "streamlit", "ai"]
+page-layout: article
+---
+
+The **Tea Auction Analytics** project delivers an end-to-end analytics environment for understanding Crush, Tear, Curl (CTC) tea sales across Indian auction markets. Built with Streamlit, the application brings together data ingestion, statistical computation, AI-assisted insights, and polished visuals so auction stakeholders can monitor trends and make informed decisions quickly.
+
+## Key Capabilities
+
+- **Interactive analytics workspace** covering price trends, positional insights, and market comparisons across North and South India auctions.
+- **AI-assisted narratives** powered by OpenAI models that summarize market conditions, diagnose pricing patterns, and recommend strategic actions.
+- **Flexible data intake** for Excel and CSV files, complete with intelligent column mapping, standardization of market names, and weighted pricing calculations.
+- **Multi-tab UX** that separates positional, trend, comparative, and level analyses, each with tailored charts and tables for rapid exploration.
+- **Automated reporting** that exports polished PDF documents capturing the latest analytics snapshots.
+
+## Technology Stack
+
+- **Frontend & runtime**: Streamlit 1.29 provides the responsive, mobile-aware interface.
+- **Computation & data handling**: Pandas, NumPy, and Plotly/Plotly Express perform data wrangling and visualization.
+- **AI integration**: The OpenAI Python SDK drives natural-language narratives and strategic commentary.
+- **Supporting packages**: openpyxl and xlrd for spreadsheet parsing, plus ReportLab for PDF generation.
+
+## Workflow Highlights
+
+1. **Data upload**: Users drop Excel or CSV files that match the expected auction schema. The system normalizes headers (e.g., Sale No, Sold Qty, Unsold Qty) and validates critical metrics.
+2. **Processing & analysis**: Core helpers such as `process_excel_data()`, `calculate_weighted_price()`, `analyze_levels()`, and `calculate_correlations()` transform raw inputs into market-ready indicators.
+3. **Visualization & storytelling**: Plotly charts render price movements, correlation matrices, and comparative insights while AI routines craft plain-language summaries for executive review.
+4. **Progressive feedback**: Custom animation classes (`TeaIconAnimator`, `TeaStationAnimator`, and `EnhancedProgressTracker`) provide tea-themed progress cues during uploads, AI calls, and visualization renders.
+5. **Reporting & export**: Analysts can package results into PDF briefings directly from the dashboard.
+
+## Deployment & Usage
+
+- **Local development**: Install the project with `pip install .` (or editable mode) and launch via `streamlit run main.py --server.port=5000 --server.address=0.0.0.0`.
+- **Environment configuration**: Set `OPENAI_API_KEY` to unlock AI commentary features; otherwise the dashboard still performs conventional analytics.
+- **Hosted options**: The repository ships with Replit-friendly workflows, and the Streamlit app can be deployed to any Python 3.11+ environment with the listed dependencies.
+
+## Getting Started
+
+Visit the project repository for source code, setup scripts, and issue tracking:
+
+> **GitHub**: <https://github.com/shekibahmed/TeaAuctionAnalytics>
+
+Need help or want to contribute? Follow the repository's contributing guide—fork, branch, test, and open a pull request with your enhancements.
